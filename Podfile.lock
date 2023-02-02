@@ -1,16 +1,20 @@
 PODS:
   - IQKeyboardManagerSwift (6.5.9)
+  - UXCam (3.5.2)
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift
+  - UXCam (~> 3.5.2)
 
 SPEC REPOS:
   trunk:
     - IQKeyboardManagerSwift
+    - UXCam
 
 SPEC CHECKSUMS:
   IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  UXCam: 05d2da703cc929baaba0df6cdfeb58124512d222
 
-PODFILE CHECKSUM: 3e344dc11f53ee1417eea41227dc922ec2501677
+PODFILE CHECKSUM: e6e81a59962f8d59addeda0af70fb35ea11e0fa4
 
 COCOAPODS: 1.11.3

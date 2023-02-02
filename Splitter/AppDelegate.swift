@@ -7,7 +7,7 @@
 
 import UIKit
 import IQKeyboardManagerSwift
-//import UXCam
+import UXCam
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,15 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared.enable = true
         sleep(1)
-//      let config = UXCamConfiguration(appKey: "2q3raqi4op4pkdo")
+        let config = UXCamConfiguration(appKey: "rr2iky26q22y1e5")
 //
-//      UXCam.optIntoSchematicRecordings()
-//      UXCam.start(with: config) {(status) in
-//        if (status) {
-//          let url = UXCam.urlForCurrentSession()
-//          UXCam.logEvent(url ?? "no url")
-//        }
-//      }
+        UXCam.optIntoSchematicRecordings()
+        UXCam.start(with: config)
 
 
         

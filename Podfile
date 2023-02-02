@@ -7,7 +7,7 @@ target 'Splito' do
 
   # Pods for Splito
   pod 'IQKeyboardManagerSwift'
-  
+  pod 'UXCam', "~> 3.5.2"
 
 
 end
