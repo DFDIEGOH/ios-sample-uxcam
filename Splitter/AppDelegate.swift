@@ -21,8 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared.enable = true
         sleep(1)
-        let config = UXCamConfiguration(appKey: "rr2iky26q22y1e5")
-//
+        let config = UXCamConfiguration(appKey: "appKey") //Please change your appKey in here: Example - rh2iyy26q52y1e5
+
         UXCam.optIntoSchematicRecordings()
         UXCam.start(with: config)
 
