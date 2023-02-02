@@ -3,7 +3,7 @@
 # UXCam integrated sample app for iOS.
 This is a sample project demonstrating the use of UXCam SDK for iOS
 
-# Diferent logs to confirm the SDK is up and running
+# SDK Debug Logs
 
 The UXCam SDK has different debug logs that will appear in your XCode terminal as soon as the SDK is running, just like the following: 
 
